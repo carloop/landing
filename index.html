@@ -10,15 +10,20 @@
         h1, h2 { color: #007BFF; }
         p { line-height: 1.6; }
         a { color: #007BFF; text-decoration: none; }
+        .full-image { display: block; max-width: 100%; margin: 10px auto; }
         .footer { text-align: center; margin-top: 20px; font-size: 0.8em; color: #666; }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Farewell from Carloop</h1>
-        <p>Carloop was a 100% open-source development kit designed to connect cars to the cloud, supporting applications like GPS tracking, mileage logging, and diagnostic trouble code decoding. While we no longer sell Carloop, our commitment to the community endures.</p>
+        <p>Carloop was a 100% open-source development kit designed to connect cars to the cloud, supporting applications like GPS tracking, mileage logging, and diagnostic trouble code decoding. It was introduced in 2016 and retired in 2024. While we no longer sell Carloop, our commitment to the community endures.</p>
         <p>Our forum at <a href="https://community.carloop.io/">community.carloop.io</a> and our open-source repository at <a href="https://github.com/carloop">github.com/carloop</a> remain active for enthusiasts and developers.</p>
-        <p>As passionate hackers, we encourage you to connect with us on LinkedIn or X (Formerly Twitter) — Alan Mond & Julien Vanier are looking forward to hearing from you.</p>
+        <p>As passionate hackers, we encourage you to connect with us.<br>— Alan Mond & Julien Vanier, the Carloop team.</p>
+        <img class="full-image" src="carloop-package.jpg">
+        <img class="full-image" src="carloop-team.jpg">
+
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/mondalan">Alan</a>, <a href="https://www.linkedin.com/in/jvanier">Julien</a>. X (formerly Twitter): <a href="https://twitter.com/mondalan">Alan</a>, <a href="https://twitter.com/monkbroc">Julien</a>.</p>
         <div class="footer">Carloop © <span id="year"></span></div>
         <script>
             document.getElementById('year').textContent = new Date().getFullYear();
